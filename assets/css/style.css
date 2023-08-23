@@ -13,7 +13,7 @@ html{
     margin:100px auto;
     border-radius: 10px;
     padding:20px;
-    box-shadow: 0px 4px 0px 0px #009de4;
+    /box-shadow: 0px 4px 0px 0px #009de4;
     -moz-box-shadow: 0px 4px 0px 0px #009de4;
     -webkit-box-shadow: 0px 4px 0px 0px #009de4;
     position:relative;
@@ -62,46 +62,28 @@ html{
     text-align:center;
     line-height:80px;
     position:relative;
-    transition:all 0.2s;
+   /* transition:all 0.2s;
     -webkit-transition:all 0.2s;
     -o-transition:all 0.2s;
     -ms-transition:all 0.2s;
-    -moz-transition:all 0.2s;
+    -moz-transition:all 0.2s;*/
   }
   .box:hover,#startReset:hover{
     background-color:#2790f1;
     color:white;
-   /* box-shadow: 0px 4px #6b54de;*/
+   /* box-shadow: 0px 4px #6b54de;
     -webkit-box-shadow: 0px 4px #0e82e0;
-    -moz-box-shadow: 0px 4px #0e44d8;
+    -moz-box-shadow: 0px 4px #0e44d8;*/
   }
-  .box:active{
+ /* .box:active{
     box-shadow: 0px 0px;
     -moz-box-shadow: 0px 0px;
     -webkit-box-shadow: 0px 0px;
     top:4px;
-  }
+  }*/
   #box4{
     margin-right: 0;
   }
-  /*
-  #startReset{
-      background-color: rgba(255,255,255,0.5);
-      width:78px;
-      border:none;
-      padding:10px;
-      border-radius:2px;
-      cursor:pointer;
-      box-shadow: 0px 4px rgba(0,0,0,0.2);
-      position:relative;
-      transition:all 0.2s;
-      -webkit-transition:all 0.2s;
-      -o-transition:all 0.2s;
-      -ms-transition:all 0.2s;
-      -moz-transition:all 0.2s;
-      margin:0 auto;
-      margin-top:-50px;
-  }*/
   #startReset{
     width:113px;
     height: 41px;
@@ -116,9 +98,9 @@ html{
     left:400px;
     background-color:rgba(27, 235, 138, 0.78);
     border-radius:3px;
-    box-shadow:0px 4px rgba(0,0,0,0.2);
+   /* box-shadow:0px 4px rgba(0,0,0,0.2);
     -webkit-box-shadow:0px 4px rgba(0,0,0,0.2);
-    -moz-box-shadow:0px 4px rgba(0,0,0,0.2);
+    -moz-box-shadow:0px 4px rgba(0,0,0,0.2);*/
     display: none;
   }
   #gameover{
@@ -130,7 +112,7 @@ html{
     top:100px;
     left:40px;
     font-size: 2.5em;
-    background: linear-gradient(#f3ca6b,#fe706c);
+    background: linear-gradient(#c4b38d,#af7472);
     z-index:2;
     display:none;
   }
