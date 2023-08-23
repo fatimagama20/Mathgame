@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Math Game</title>
+  <meta charset="ütf-8">
+  <meta name="viewport" content="width=device-width" 
+  initial-scale="1" user-scalable="yes">
+  <script src="https://kit.fontawesome.com/e6b0f37796.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div id="container">
+  <div id="score">score:<span id="scorevalue">
+    0</span>
+  </div>
+  <div id="question">
+    <span id="operand1">0</span>
+    <span id="operator">x</span>
+    <span id="operand2">0</span>
+  </div>
+  <div id="instruction"> Click on the anwser below</div>
+  <div id="choices">
+    <button class="box" id="box1"></button>
+    <button class="box" id="box2"></button>
+    <button class="box" id="box3"></button>
+    <button class="box" id="box4"></button>
+  </div>
+  <button data-type="submit" id="startReset">Start Game</button>
+  <div id="timeremaining">Time remaining:<span id="timeremainingvalue">60</span>sec</div>
+  <div id="gameover">
+  </div>
+  <div class="popup" id="help" onclick="myFunction()"><i class="fa-regular fa-circle-question"></i>
+    <span class="popuptext" id="myPopup">
+      <h1>How to play</h1>
+      <p><br>On click of the StartGame button, Question and random answers will be generated. <br>Click on one of the box.<br>
+        If the box clicked is the correct answer, score will be incremented to 1 and alert will be shown displaying a message.<br>
+        If the answer is wrong you get another chance to choose the correct answer. <br>
+        There are 30 seconds to play the game. <br>Game will be stopped after 30 seconds.
+      </p>
+    </span>
+  </div>
+</div>
+<script src="assets/js/game.js"></script>
+</body>
+</html>
