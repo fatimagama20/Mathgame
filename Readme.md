@@ -73,7 +73,43 @@ This game is designed to generate random mulitplication questions and answers  w
 # Testing
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
   * [W3C Markup Validator]() - [Results](https://github.com/fatimagama20/TutorMilestoneProject1/blob/main/assets/image/w3cmarkupvalidatorresult.jpg)
-  * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/fatimagama20/TutorMilestoneProject1/blob/main/assets/image/cssresult.jpg)
+  * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/fatimagama20/TutorMilestoneProject1/blob/main/assets/image/cssresult.jpg) 
+  * []
+
+  ### Automated testing (TDD)
+We can use code to test our code. which has several advantages over the manual testing method. Many hundreds of tests can be run against a project in a short space of time, and as tests are usually written by the  programmer during development, errors are picked up early. In other words, automated software testing is quicker, efficient, and specific.
+
+However, tests are only as good as the questions we ask & tests can end up as purely decorative giving a false impression. Automated tests don't test the User Experience either, so the best testing strategy is a combination of both automated and user tests. 
+
+### Jest
+I have used the Jest JavaScript Testing Framework to develop automated test for the Bug Match game. Test-Driven development is to develop code incrementally in the following way: write tests that we know will fail and then, we write just enough code to get the test to pass - without breaking any previous tests. Finally, to think about ways that we can improve or refactor our code.  This cycle is known as Red-Green-Refactor. Finally a suite of tests can be run for complete app, by typing one command into the terminal -  npm test.
+
+I have used Jest as an introduction to automated testing to test code already written. The next stage in my development will be to implement this testing process as the product is being built.
+
+### Requirements:
+Before running the tests, a modification is required in script.js: comment out the EmailJS & modal scripts as well as line 15 appending the squares container to the DOM. 
+
+### Testing the Array of Objects 
+Checks if an array of objects: 
+1. contains a specific value.
+![View](/docs/jest_tests/jest-test-cardArray-contains-specific-value.png)
+2. contains a specific object.
+![View](/docs/jest_tests/jest-test-cardArray-contains-specific-value.png)
+
+### Testing the number of specific elements contained within an html page 
+1. h3 should exist.
+2. three buttons should exist.
+![View](/docs/jest_tests/total-tests-passed.png)
+
+## Manual testing (BDD)
+Behaviour-Driven development is based on  the expected outcome of an action, to see if an app behaves as expected. BDD builds on the user stories, extending this by adding Given, Then, and When  - so given (a specific context), when (a specific action is carried out), then (a particular set of observable consequences should occur). The behaviour is now testable, and repeatable. Manual testing is time consuming
+ 
+## BDD example with Bug Match
+As a user, when I arrive at the webpage. 
+- I want to be able to click a maximum of two squares, so that each square flips and displays an image.
+- I want the flipped squares if they don’t match to be flipped back in the game so I can have another go.
+- I want the flipped squares if they do match to be flipped back and disabled, and be counted as a match on the scoreboard.
+
 # Testing User Stories from User Experience (UX) Section
  * First Time Visitor Goals
 
