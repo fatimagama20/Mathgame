@@ -116,6 +116,7 @@ html{
     z-index:2;
     display:none;
   }
+  
   /*------------------------------pop up alignment------------------*/
 /* Popup container */
 .popup {
@@ -170,4 +171,15 @@ html{
 @keyframes fadeIn {
   from {opacity: 0;}
   to {opacity:1 ;}
+}
+.unorderedlist {
+  margin: 10px 20px;
+  position: absolute;;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
 }
