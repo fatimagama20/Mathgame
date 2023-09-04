@@ -5,7 +5,7 @@
 
 This game is designed to generate random mulitplication questions and answers  which can be used to improve the times table and help make math enjoyable specially children can have fun and improve their math skills
 
-![](?raw=true)
+![](https://fatimagama20-mathgame-f14h60y2ile.ws-eu104.gitpod.io/responsive design.png?raw=true)
 
 # User Experience (UX)
 * ## User stories
