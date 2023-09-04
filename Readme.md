@@ -5,7 +5,7 @@
 
 This game is designed to generate random mulitplication questions and answers  which can be used to improve the times table and help make math enjoyable specially children can have fun and improve their math skills
 
-![](https://fatimagama20-mathgame-f14h60y2ile.ws-eu104.gitpod.io/responsive design.png?raw=true)
+![](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/responsive%20design.png?raw=true)
 
 # User Experience (UX)
 * ## User stories
@@ -35,9 +35,9 @@ This game is designed to generate random mulitplication questions and answers  w
     * On the Homepage, I have used a professionally presented image to suit the purpose of the website, which is providing a good impression for parents to visit the website.
   
 * ## Wireframes
-  * ### Page Load Wireframe - [View](https://github.com/fatimagama20/TutorMilestoneProject1/blob/main/assets/image/hompage.jpg)
-  * ### Start Game Wireframe - [View](https://github.com/fatimagama20/TutorMilestoneProject1/blob/main/assets/image/aboutpage.jpg)
-  * ### Contact Page Wireframe - [View](https://github.com/fatimagama20/TutorMilestoneProject1/blob/main/assets/image/contactform.jpg)
+  * ### Page Load Wireframe - [View](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/Page%20load.jpg)
+  * ### Start Game Wireframe - [View](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/Start%20game.jpg)
+  * ### Contact Page Wireframe - [View](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/game%20over.jpg)
 
 
 # Features
@@ -54,22 +54,21 @@ This game is designed to generate random mulitplication questions and answers  w
   * [JavaScript](https://en.wikipedia.org/wiki/CSS)
 
   ##  Frameworks, Libraries & Programs Used
-  1. [Bootstrap5:](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
-     * Bootstrap was used to assist with the responsiveness and styling of the website.
-  2. [Font Awesome:](https://fontawesome.com/)
+  1. [Font Awesome:](https://fontawesome.com/)
      *  Font Awesome is used to add help icon
-  3. [Hover:css:](https://ianlunn.github.io/Hover/)
+  2. [Hover:css:](https://ianlunn.github.io/Hover/)
      * Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
-  4. [jQuery:](https://jquery.com/)
+  3. [jQuery:](https://jquery.com/)
      * jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
-  5. [Git:](https://git-scm.com/)
+  4. [Git:](https://git-scm.com/)
      * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-  6. [GitHub:](https://github.com/)
+  5. [GitHub:](https://github.com/)
      * GitHub is used to store the projects code after being pushed from Git.
-  7. [Balsamiq:](https://balsamiq.com/)
+  6. [Balsamiq:](https://balsamiq.com/)
      * Balsamiq was used to create the [wireframes]() during the design process.
-  8. [Am I reponsive:](https://ui.dev/amiresponsive)
+  7. [Am I reponsive:](https://ui.dev/amiresponsive)
      * Am I reponsive was used to create a mockup to add in a README.md file
+     
 # Testing
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
   * [W3C Markup Validator]() - [Results](https://github.com/fatimagama20/TutorMilestoneProject1/blob/main/assets/image/w3cmarkupvalidatorresult.jpg)
