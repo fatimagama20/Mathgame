@@ -28,16 +28,23 @@ This game is designed to generate random mulitplication questions and answers  w
     * Time remaining colour - rgba(27, 235, 138, 0.78)
     * questions colour - #4c9bf5
 
+**Math game**
+
+| Score | Background |Time remaining |Questions |
+| :---: | :---: | :---: | :---: |
+| ![#f1ff92](https://via.placeholder.com/15/f1ff92/f1ff92) | ![#9dd2ea](https://via.placeholder.com/15/9dd2ea/9dd2ea) |![#888e5f](https://via.placeholder.com/15/888e5f/888e5f) |![#4c9bf5](https://via.placeholder.com/15/4c9bf5/4c9bf5) |
+| #f1ff92 | #9dd2ea |  #888e5f |#4c9bf5 |
+
 
   * ### Typography
     * Default fonts is used throughtout the website. I haven't use google fonts
   * ### Imagery
-    * On the Homepage, I have used a professionally presented image to suit the purpose of the website, which is providing a good impression for parents to visit the website.
+    * On the Homepage, I have used different colours to  suit the purpose of the game, which is providing a good impression and attracts for parents to visit the game.
   
 * ## Wireframes
   * ### Page Load Wireframe - [View](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/Page%20load.jpg)
   * ### Start Game Wireframe - [View](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/Start%20game.jpg)
-  * ### Contact Page Wireframe - [View](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/game%20over.jpg)
+  * ### Game Over page Wireframe - [View](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/game%20over.jpg)
 
 
 # Features
@@ -51,7 +58,7 @@ This game is designed to generate random mulitplication questions and answers  w
 
   * [HTML5](https://en.wikipedia.org/wiki/HTML5)
   * [CSS3](https://en.wikipedia.org/wiki/CSS)
-  * [JavaScript](https://en.wikipedia.org/wiki/CSS)
+  * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
   ##  Frameworks, Libraries & Programs Used
   1. [Font Awesome:](https://fontawesome.com/)
