@@ -95,23 +95,23 @@ I have used Jest as an introduction to automated testing to test code already wr
 ### Testing the displayquestion works correctly 
 Checks if operand1, operand2 and operator equal to 0 and x: 
 1. Operand1 and Operand2 equal to 0.
-![View](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/Display%20function%20works%20correctly.jpg)
+![View](/assets/images/Displayfunctionworkscorrectly.jpg)
 2. Operator equal to x.
-![View](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/Display%20function%20works%20correctly.jpg)
+![View](/assets/images/Displayfunctionworkscorrectly.jpg)
 
 ### Testing the number of specific elements contained within an html page 
-1. h3 should exist.
-2. three buttons should exist.
-![View](/docs/jest_tests/total-tests-passed.png)
+1. span should exist.
+2. Five buttons should exist.
+![View](/assets/images/domtest.jpg)
 
 ## Manual testing (BDD)
 Behaviour-Driven development is based on  the expected outcome of an action, to see if an app behaves as expected. BDD builds on the user stories, extending this by adding Given, Then, and When  - so given (a specific context), when (a specific action is carried out), then (a particular set of observable consequences should occur). The behaviour is now testable, and repeatable. Manual testing is time consuming
  
-## BDD example with Bug Match
+## BDD example with Math game
 As a user, when I arrive at the webpage. 
-- I want to be able to click a maximum of two squares, so that each square flips and displays an image.
-- I want the flipped squares if they don’t match to be flipped back in the game so I can have another go.
-- I want the flipped squares if they do match to be flipped back and disabled, and be counted as a match on the scoreboard.
+- I want to be able to click on a start game button, so that questions and answers are generated.
+- I want to able to choose an answers and the score is incremented on choosing correct answer.
+- I want to able to see the time remaining.
 
 # Testing User Stories from User Experience (UX) Section
  * First Time Visitor Goals
@@ -119,6 +119,8 @@ As a user, when I arrive at the webpage.
     1. As a First Time Visitor, I want to easily understand the main purpose of the game and learn more about the times table.
 
        * Upon launching a game, user can easily understand how to play the game by accessing the help icon. 
+
+       ![](?raw=true)
        
        * On click of the "Start Game" question will be generated with random numbers. 
        
@@ -130,32 +132,7 @@ As a user, when I arrive at the webpage.
 
        ![](?raw=true)
        
-    2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
-
-        * The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-
-        * At the bottom of the first 3 pages there is a redirection call to action to ensure      the  user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
-            
-        * On the Contact Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
-
-        ![](?raw=true)
-        
-        ![](?raw=true)
-
-    3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
-
-        * Once the new visitor has read the About page and What I Do text, they will notice the qualification and use of online service.
-
-        * The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-
-        * At the bottom of the Contact page, the user is told underneath the form, that alternatively they can contact the person on social media which highlights the links to them.
-
-        ![](?raw=true)
-
-        ![](?raw=true)
-
-
-
+    
  *  Frequent User Goals
 
     1. As a Frequent User, I want to check to see if there are any newly added reviews about the tutor.
