@@ -144,7 +144,7 @@ As a user, when I arrive at the webpage.
 # Known Bugs
 *  Game over popup overwrites the help page pop up if clicked after the timer expires.
 
-![](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/gameoverwithfinalscore.jpg?raw=true)
+![](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/knownbug.jpg?raw=true)
 
 *  After the timer expires and start the game again by clicking on the start Game button, the timer runs faster than normal
   * I tried fixing the bugs but unfortunately due to the short time I left them unfixed
