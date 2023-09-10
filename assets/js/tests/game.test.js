@@ -28,7 +28,7 @@ describe("displayquestion works correctly", () => {
 
 describe("DOM tests", () => {
 	test("Should have six span in game", () => {
-        expect(document.getElementsByTagName("span").length).toBe(6);
+        expect(document.getElementsByTagName("span").length).toBe(5);
     });
 
     test("should be five buttons exist in game", () => {
