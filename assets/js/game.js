@@ -145,9 +145,9 @@ function settimeinterval(){
       function hide(id){
         document.getElementById(id).style.display="none";
       }
-    function myFunction() {
+   function myFunction() {
         var popup = document.getElementById("myPopup");
         popup.classList.toggle("show");
       }
     
-     module.exports = displayquestion;
+     //module.exports = displayquestion;

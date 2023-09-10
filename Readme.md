@@ -78,9 +78,9 @@ This game is designed to generate random mulitplication questions and answers  w
      
 # Testing
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
-  * [W3C Markup Validator]() - [Results](https://github.com/fatimagama20/TutorMilestoneProject1/blob/main/assets/image/w3cmarkupvalidatorresult.jpg)
+  * [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Results](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/html%20results.jpg)
   * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/fatimagama20/TutorMilestoneProject1/blob/main/assets/image/cssresult.jpg) 
-  * []
+  * [Javascript validator](https://jshint.com/)- [Results]()
 
   ### Automated testing (TDD)
 We can use code to test our code. which has several advantages over the manual testing method. Many hundreds of tests can be run against a project in a short space of time, and as tests are usually written by the  programmer during development, errors are picked up early. In other words, automated software testing is quicker, efficient, and specific.
