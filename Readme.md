@@ -120,43 +120,40 @@ As a user, when I arrive at the webpage.
 
        * Upon launching a game, user can easily understand how to play the game by accessing the help icon. 
 
-       ![](?raw=true)
+       ![](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/Howtoplay.jpg?raw=true)
        
        * On click of the "Start Game" question will be generated with random numbers. 
+
+       ![](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/startgameq.jpg?raw=true)
        
        * Timer will be shown for the user to know how long to play. On choosing right answer, score will be incremented.
+
+       ![](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/timer.jpg?raw=true)
 
        * The moment timer reaches to zero game over message is displayed
 
        * Reset the game any time by clicking on the "Reset Game"
 
-       ![](?raw=true)
+       ![](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/gameoverwithfinalscore.jpg?raw=true)
        
-    
- *  Frequent User Goals
-
-    1. As a Frequent User, I want to check to see if there are any newly added reviews about the tutor.
-
-       * The user would already be comfortable with the website layout and can easily check the reviews section.
-
-    2. As a Frequent User, I want to check to see if there are any new subjects are added.
-
-       * The user would already be comfortable with the website layout and can easily check the subjects.
 
 # Further Testing
 * The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 * The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
-* A large amount of testing was done to ensure that all pages were linking correctly.
-* Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+* Friends and family members were asked to play the game and documentation to point out any bugs and/or user experience issues.
 # Known Bugs
-* Hover effects don't work on the navigation bar
-  * I tried fixing hover effects on a nav bar but somehow Bootstrap is overriding the CSS. Since there is not much impact on the UX and there are clear redirection provided I left it unfixed
+*  Game over popup overwrites the help page pop up if clicked after the timer expires.
+
+![](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/gameoverwithfinalscore.jpg?raw=true)
+
+*  After the timer expires and start the game again by clicking on the start Game button, the timer runs faster than normal
+  * I tried fixing the bugs but unfortunately due to the short time I left them unfixed
  
 # Deployment
 GitHub Pages
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/fatimagama20/TutorMilestoneProject1)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/fatimagama20/Mathgame)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
    * Alternatively Click Here for a GIF demonstrating the process starting from Step 2.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
@@ -166,21 +163,21 @@ The project was deployed to GitHub Pages using the following steps...
 # Forking the GitHub Repository
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/fatimagama20/TutorMilestoneProject1)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/fatimagama20/Mathgame)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 # Making a Local Clone
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/fatimagama20/TutorMilestoneProject1)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/fatimagama20/Mathgame)
 2. Under the repository name, click "Clone or download".
 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 4. Open Git Bash
 5. Change the current working directory to the location where you want the cloned directory to be made.
 6. Type git clone, and then paste the URL you copied in Step 3.
 
-   $ git clone https://github.com/fatimagama20/TutorMilestoneProject1
+   $ git clone https://github.com/fatimagama20/Mathgame
 7. Press Enter. Your local clone will be created.
 
-   $ git clone https://github.com/fatimagama20/TutorMilestoneProject1
+   $ git clone https://github.com/fatimagama20/Mathgame
 
 > Cloning into `CI-Clone`...
 > remote: Counting objects: 10, done.
@@ -193,19 +190,18 @@ Click Here to retrieve pictures for some of the buttons and more detailed explan
 ## Code
 * [Bootstrap 5.0:](https://getbootstrap.com/docs/5.0/getting-started/introduction/) Bootstrap was used significantly throughout the project to make it responsive. I used the Grid system as well as inputting a fixed-top navbar, a progress bar and contact form.
 
-* [Stack Overflow](https://stackoverflow.com/) was used to help me style the navbar text colour and was used in HTML to close the navbar when a link is clicked on mobile.
+* [Stack Overflow](https://stackoverflow.com/) was used to help me to generate the random answers.
 
-* [W3Schools](https://www.w3schools.com/) was used to provide a smooth scroll to the website and to style the contact form and the submit button.
+* [W3Schools](https://www.w3schools.com/) was used to add the help popup.
 
-* [Courses.Code Institute](https://learn.codeinstitute.net/ci_program/level5diplomainwebappdevelopment) was used to style the progress bars and I used the demonstrated jQuery for the contact form.
+* [Courses.Code Institute](https://learn.codeinstitute.net/ci_program/level5diplomainwebappdevelopment) was used to create the Math game as I used it as the base.
 
 ## Content
 * [Google :](https://www.google.co.uk/) Some content was searched from google
 * Some content by the developer.
 
 ## Media
-* [Google:](https://www.google.co.uk/) Some Images were downloaded from google.
-* [Unsplash:](https://unsplash.com/) Some image are taken from Unsplash
+* [Google:](https://www.google.co.uk/) Some game ideas were checked from google.
 
 ## Acknowledgements
 * My Mentor for continuous helpful feedback.
