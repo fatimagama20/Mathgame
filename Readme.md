@@ -79,8 +79,8 @@ This game is designed to generate random mulitplication questions and answers  w
 # Testing
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
   * [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Results](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/html%20results.jpg)
-  * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/fatimagama20/TutorMilestoneProject1/blob/main/assets/image/cssresult.jpg) 
-  * [Javascript validator](https://jshint.com/)- [Results]()
+  * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/css%20results.jpg) 
+  * [Javascript JSHint validator](https://jshint.com/)- [Results](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/jsresults.jpg)
 
   ### Automated testing (TDD)
 We can use code to test our code. which has several advantages over the manual testing method. Many hundreds of tests can be run against a project in a short space of time, and as tests are usually written by the  programmer during development, errors are picked up early. In other words, automated software testing is quicker, efficient, and specific.
@@ -88,19 +88,16 @@ We can use code to test our code. which has several advantages over the manual t
 However, tests are only as good as the questions we ask & tests can end up as purely decorative giving a false impression. Automated tests don't test the User Experience either, so the best testing strategy is a combination of both automated and user tests. 
 
 ### Jest
-I have used the Jest JavaScript Testing Framework to develop automated test for the Bug Match game. Test-Driven development is to develop code incrementally in the following way: write tests that we know will fail and then, we write just enough code to get the test to pass - without breaking any previous tests. Finally, to think about ways that we can improve or refactor our code.  This cycle is known as Red-Green-Refactor. Finally a suite of tests can be run for complete app, by typing one command into the terminal -  npm test.
+I have used the Jest JavaScript Testing Framework to develop automated test for the Math game. Test-Driven development is to develop code incrementally in the following way: write tests that we know will fail and then, we write just enough code to get the test to pass - without breaking any previous tests. Finally, to think about ways that we can improve or refactor our code.  This cycle is known as Red-Green-Refactor. Finally a suite of tests can be run for complete app, by typing one command into the terminal -  npm test.
 
 I have used Jest as an introduction to automated testing to test code already written. The next stage in my development will be to implement this testing process as the product is being built.
 
-### Requirements:
-Before running the tests, a modification is required in script.js: comment out the EmailJS & modal scripts as well as line 15 appending the squares container to the DOM. 
-
-### Testing the Array of Objects 
-Checks if an array of objects: 
-1. contains a specific value.
-![View](/docs/jest_tests/jest-test-cardArray-contains-specific-value.png)
-2. contains a specific object.
-![View](/docs/jest_tests/jest-test-cardArray-contains-specific-value.png)
+### Testing the displayquestion works correctly 
+Checks if operand1, operand2 and operator equal to 0 and x: 
+1. Operand1 and Operand2 equal to 0.
+![View](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/Display%20function%20works%20correctly.jpg)
+2. Operator equal to x.
+![View](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/Display%20function%20works%20correctly.jpg)
 
 ### Testing the number of specific elements contained within an html page 
 1. h3 should exist.

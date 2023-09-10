@@ -150,4 +150,4 @@ function settimeinterval(){
         popup.classList.toggle("show");
       }
     
-     //module.exports = displayquestion;
+     module.exports = displayquestion;

@@ -1,7 +1,5 @@
 const displayquestion = require("../game");
 
-//const { describe } = require("yargs");
-
 beforeAll(() => {
     let fs = require("fs");
     let fileContents = fs.readFileSync("index.html", "utf-8");
@@ -28,17 +26,6 @@ describe("displayquestion works correctly", () => {
     });
 });
 
-/*describe("runGame works correctly", () => {
-    beforeAll(() => {
-       num1 = 5;
-       num2 = 6;
-       runGame();
-
-    });
-    test("displayquestion works correctly", () => {
-        expect(displayquestion()).toBe(30);
-    });
-});*/
 describe("DOM tests", () => {
 	test("Should have six span in game", () => {
         expect(document.getElementsByTagName("span").length).toBe(6);
