@@ -42,9 +42,9 @@ This game is designed to generate random mulitplication questions and answers  w
     * On the Homepage, I have used different colours to  suit the purpose of the game, which is providing a good impression and attracts for parents to visit the game.
   
 * ## Wireframes
-  * ### Page Load Wireframe - [View](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/Page%20load.jpg)
-  * ### Start Game Wireframe - [View](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/Start%20game.jpg)
-  * ### Game Over page Wireframe - [View](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/game%20over.jpg)
+  * ### Page Load Wireframe - [View](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/Pageload.jpg)
+  * ### Start Game Wireframe - [View](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/Startgame.jpg)
+  * ### Game Over page Wireframe - [View](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/gameover.jpg)
 
 
 # Features
@@ -63,23 +63,25 @@ This game is designed to generate random mulitplication questions and answers  w
   ##  Frameworks, Libraries & Programs Used
   1. [Font Awesome:](https://fontawesome.com/)
      *  Font Awesome is used to add help icon
-  2. [Hover:css:](https://ianlunn.github.io/Hover/)
+  2. [Bootstrap5:](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+     * Bootstrap is used to create 404 page.
+  3. [Hover:css:](https://ianlunn.github.io/Hover/)
      * Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
-  3. [jQuery:](https://jquery.com/)
+  4. [jQuery:](https://jquery.com/)
      * jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
-  4. [Git:](https://git-scm.com/)
+  5. [Git:](https://git-scm.com/)
      * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-  5. [GitHub:](https://github.com/)
+  6. [GitHub:](https://github.com/)
      * GitHub is used to store the projects code after being pushed from Git.
-  6. [Balsamiq:](https://balsamiq.com/)
+  7. [Balsamiq:](https://balsamiq.com/)
      * Balsamiq was used to create the [wireframes]() during the design process.
-  7. [Am I reponsive:](https://ui.dev/amiresponsive)
+  8. [Am I reponsive:](https://ui.dev/amiresponsive)
      * Am I reponsive was used to create a mockup to add in a README.md file
      
 # Testing
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
-  * [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Results](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/html%20results.jpg)
-  * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/css%20results.jpg) 
+  * [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Results](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/html20results.jpg)
+  * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/cssresults.jpg) 
   * [Javascript JSHint validator](https://jshint.com/)- [Results](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/jsresults.jpg)
 
   ### Automated testing (TDD)
