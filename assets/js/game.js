@@ -35,6 +35,8 @@ document.addEventListener("DOMContentLoaded", function () {
     {
         box.addEventListener('click', function() 
            {
+            if (playing==true)
+            {
               if(parseInt(this.innerHTML)===calculateCorrectAnswer())
               {
                 alert("WOW! You answered it Correct");
@@ -44,6 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
                      alert("Aww! Wrong answer, Please try again.");
                      runGame();
                    }
+            } 
          });
    }
 });

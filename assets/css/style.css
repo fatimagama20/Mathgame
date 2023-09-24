@@ -60,6 +60,7 @@ html{
     text-align:center;
     line-height:80px;
     position:relative;
+    cursor: pointer;
   }
   .box:hover,#startReset:hover{
     background-color:#2790f1;
@@ -112,7 +113,7 @@ html{
   visibility: hidden;
   width: 540px;
   height: 202px;
-  background-color: #91a5cd;
+  background-color: #4c9bf5;
   color: #fff;
   text-align: left;
   border-radius: 6px;
