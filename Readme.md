@@ -80,7 +80,7 @@ This game is designed to generate random mulitplication questions and answers  w
      
 # Testing
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
-  * [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Results](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/html20results.jpg)
+  * [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Results](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/htmlresults.jpg)
   * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/cssresults.jpg) 
   * [Javascript JSHint validator](https://jshint.com/)- [Results](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/jsresults.jpg)
 
