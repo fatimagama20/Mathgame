@@ -5,7 +5,7 @@
 
 This game is designed to generate random mulitplication questions and answers  which can be used to improve the times table and help make math enjoyable specially children can have fun and improve their math skills
 
-![](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/responsive%20design.png?raw=true)
+![](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/responsivedesign.png?raw=true)
 
 # User Experience (UX)
 * ## User stories
@@ -42,8 +42,8 @@ This game is designed to generate random mulitplication questions and answers  w
     * On the Homepage, I have used different colours to  suit the purpose of the game, which is providing a good impression and attracts for parents to visit the game.
   
 * ## Wireframes
-  * ### Page Load Wireframe - [View](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/Pageload.jpg)
-  * ### Start Game Wireframe - [View](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/Startgame.jpg)
+  * ### Page Load Wireframe - [View](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/pageload.jpg)
+  * ### Start Game Wireframe - [View](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/startgame.jpg)
   * ### Game Over page Wireframe - [View](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/gameover.jpg)
 
 
@@ -97,9 +97,9 @@ I have used Jest as an introduction to automated testing to test code already wr
 ### Testing the displayquestion works correctly 
 Checks if operand1, operand2 and operator equal to 0 and x: 
 1. Operand1 and Operand2 equal to 0.
-![View](/assets/images/Displayfunctionworkscorrectly.jpg)
+![View](/assets/images/displayfunctionworkscorrectly.jpg)
 2. Operator equal to x.
-![View](/assets/images/Displayfunctionworkscorrectly.jpg)
+![View](/assets/images/displayfunctionworkscorrectly.jpg)
 
 ### Testing the number of specific elements contained within an html page 
 1. span should exist.
@@ -122,7 +122,7 @@ As a user, when I arrive at the webpage.
 
        * Upon launching a game, user can easily understand how to play the game by accessing the help icon. 
 
-       ![](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/Howtoplay.jpg?raw=true)
+       ![](https://github.com/fatimagama20/Mathgame/blob/main/assets/images/howtoplay.jpg?raw=true)
        
        * On click of the "Start Game" question will be generated with random numbers. 
 
