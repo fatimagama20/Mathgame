@@ -87,11 +87,7 @@ function displayanswers(){
     let answers = [];
     let product1;
     let correctanswer = calculateCorrectAnswer();
-   // answers.push(correctanswer);
-   answers=[correctanswer];
-   /* for (let i=1;i<4;i++){
-        answers.push((Math.floor(Math.random() * 3) + 1) * (Math.floor(Math.random() * 3) + 1));
-    }*/
+    answers=[correctanswer];
     for(let i= 1;i<4;i++){
         //to generate random wrong answers
        do{
